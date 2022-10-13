@@ -1,7 +1,8 @@
 import java.util.Scanner;
 
 public class Factorial {
-    public static void main(String[] args) {
+    public void factorial()
+    {
         System.out.println("enter number");
         Scanner scan=new Scanner(System.in);
         int num =scan.nextInt();
@@ -11,5 +12,9 @@ public class Factorial {
             fact*=i;
         }
         System.out.println("factorial of a given number "+fact);
+    }
+    public static void main(String[] args) {
+        Factorial fact=new Factorial();
+        fact.factorial();
     }
 }
