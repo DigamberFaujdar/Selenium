@@ -13,6 +13,10 @@ public class Factorial {
         }
         System.out.println("factorial of a given number "+fact);
     }
+    public void sum()
+    {
+        System.out.println("sum is "+90+90);
+    }
     public static void main(String[] args) {
         Factorial fact=new Factorial();
         fact.factorial();
